@@ -36,7 +36,8 @@ In steps 3 and 4,The interface also allows the user to enter the same or differe
 
 # my_srv(server):
 
-The server package my_srv contains the Cpp file finalassignment_server.cpp which contains the source code for generating random integer within a specified range and advertising it over the node /finalassignment. It uprovides a requests with two integers namely min and max, and returns one random integer target_index within this range in response.
+The server package my_srv contains the Cpp file finalassignment_server.cpp which contains the source code for generating random integer within a specified range and advertising it over the node /second assignment. It uprovides a requests with two integers namely min and max, and returns one random integer target_index within this range in response.
+to reach assignment https://github.com/sasi5058253/RESEARCHTRACK-1ASSIGNMENT-2
 
 # Simulation of the assignment is done by follwing commands:
 
