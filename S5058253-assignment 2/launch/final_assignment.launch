@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <arg name="des_x" default= "-3"/>
+    <arg name="des_y" default= "-3"/>
+    <param name="des_pos_x" value="$(arg des_x)" />
+    <param name="des_pos_y" value="$(arg des_y)" />
+    <param name="option" type="int" value="0" />
+    <node pkg="final_assignment" type="control.py" name="control" output="screen" />
+    <node pkg="final_assignment" type="wall_follow_service_m.py" name="wall_follower" />
+    <node pkg="final_assignment" type="random_pos.py" name="random_pos" />
+    <node pkg="final_assignment" type="move_random.py" name="move_random" output="screen" />
+    <node pkg="final_assignment" type="move_to_target.py" name="move_to_target" output="screen"/>
+    <node pkg="final_assignment" type="user_interface2.py" name="user_interface2" output="screen" />
+    
+</launch>
